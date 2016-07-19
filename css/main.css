@@ -1,0 +1,31 @@
+.cell {
+	width: 50px;
+	height: 50px;
+	border: 1px solid #fff;
+	display: block;
+	float: left;
+	background-color: #66ccff;
+}
+
+.missed {
+	background-color: black;
+}
+
+.hit {
+	background-color: red
+}
+
+.cell:hover {
+	opacity: .8;
+	cursor: crosshair;
+	transition: .2s ease-in-out all;
+	-moz-transition: .2s ease-in-out all;
+	-o-transition: .2s ease-in-out all;
+	-webkit-transition: .2s ease-in-out all;
+}
+
+#board {
+	display: block;
+	width: 560px;
+	float: center;
+}
